@@ -15,7 +15,7 @@ export const supportedNetworks = [
 export const LINK_ADDRESSES: AddressMap = {
   [`ethereumSepolia`]: `0x779877A7B0D9E8603169DdbD7836e478b4624789`,
   [`metisSepolia`]: `0x9870D6a0e05F867EAAe696e106741843F7fD116D`,
-  [`arbitrumSepolia`]: `0x9870D6a0e05F867EAAe696e106741843F7fD116D`,
+  [`arbitrumSepolia`]: `0xb1D4538B4571d411F07960EF2838Ce337FE1E80E`,
 };
 
 export const routerConfig = {
@@ -40,7 +40,7 @@ export const routerConfig = {
     chainSelector: `3478487238524512106`,
     feeTokens: [
       LINK_ADDRESSES[`arbitrumSepolia`],
-      `0xb1D4538B4571d411F07960EF2838Ce337FE1E80E`,
+      `0xE591bf0A0CF924A0674d7792db046B23CEbF5f34`,
     ],
   },
 };
